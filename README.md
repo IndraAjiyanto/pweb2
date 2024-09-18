@@ -1,16 +1,4 @@
-# Pengenalan OOP di PHP
-<a href ="modul1&2">modul 1 dan 2 :</a>
-<ul>
-    <li><a href ="modul1&2/jobsheet">Jobsheet Modul 1 dan 2</a></li>
-    <li><a href ="modul1&2/tugas">Tugas Modul 1 dan 2</a></li>
-</ul>
-
-<a href ="modul3&4">modul 3 dan 4 :</a>
-<ul>
-    <li><a href ="modul3&4/jobsheet/mahasiswa.php">Jobsheet Modul 1 dan 2</a></li>
-    <li><a href ="modul1&2/tugas/dosen.php">Tugas Modul 1 dan 2</a></li>
-</ul>
-
+# Pengenalan OOP di PHP🔥
 
 ## Apa itu OOP?
 
