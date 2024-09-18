@@ -10,7 +10,7 @@ Pemrograman Berorientasi Objek (OOP) adalah paradigma pemrograman yang menggunak
 
 Inheritance adalah mekanisme di mana sebuah kelas dapat mewarisi properti dan metode dari kelas lain. Dengan pewarisan, kita dapat menciptakan hierarki kelas yang mengurangi duplikasi kode.<br>
 contoh penerapan pada Inheriten :
-<a href="modul1$2/jobsheet/inheriten">Jobsheet 1</a>
+<a href="modul1&2/jobsheet/inheriten.php">Jobsheet 1</a>
 
 **Contoh:**
 
