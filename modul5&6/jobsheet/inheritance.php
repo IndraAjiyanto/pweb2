@@ -21,7 +21,7 @@ class Person{
 // membuat kelas Student yang extends dari kelas Person
 class Student extends Person{
     // membuat properti publik $studentID yang bisa diakses diluar kelas Student
-    private $studentID;
+    public $studentID;
 
     // method __construct yang digunakan untuk mengatur nilai properti $studentID saat objek Student dibuat
     public function __construct($studentID){

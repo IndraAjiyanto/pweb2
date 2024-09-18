@@ -20,8 +20,8 @@ class Person{
 
 // membuat kelas Student yang extends dari kelas Person
 class Student extends Person{
-    // membuat properti private $studentID yang hanya bisa diakses didalam kelas Student
-    private $studentID;
+    // membuat properti public $studentID yang bisa diakses diluar kelas Student
+    public $studentID;
 
     // method __construct yang digunakan untuk mengatur nilai properti $studentID saat objek Student dibuat
     public function __construct($studentID){
@@ -50,8 +50,8 @@ class Student extends Person{
 
 // membuat kelas bernama Teacher yang extends dari kelas Person
 class Teacher extends Person{
-    // membuat properti private $teacherID yang hanya bisa diakses didalam kelas Teacher
-    private $teacherID;
+    // membuat properti public $teacherID yang bisa diakses diluar kelas Teacher
+    public $teacherID;
 
      // method __construct yang digunakan untuk mengatur nilai properti $teacherID saat objek Teacher dibuat
      public function __construct($teacherID){

@@ -24,14 +24,14 @@ class Student extends Person{
     private $studentID;
     private $name;
 
-    // method __construct hanya unutuk keperluan  
+    // method __construct yang harus ada, karena jika tidak ada akan error  
     public function __construct(){
 
     }
 
     // method setStudentID yang digunakan untuk mengatur nilai properti $studentID
     public function setStudentID($studentID){
-        $this->getStudentID = $studentID;
+        $this->studentID = $studentID;
     }
 
     // Method getStudentID yang digunkan untuk mengembalikan nilai $studentID
@@ -54,8 +54,8 @@ class Student extends Person{
 
 // membuat kelas bernama Teacher yang extends dari kelas Person
 class Teacher extends Person{
-    // membuat properti private $teacherID yang hanya bisa diakses didalam kelas Teacher
-    private $teacherID;
+    // membuat properti public $teacherID yang bisa diakses diluar kelas Teacher
+    public $teacherID;
 
      // method __construct yang digunakan untuk mengatur nilai properti $teacherID saat objek Teacher dibuat
      public function __construct($teacherID){
@@ -81,5 +81,11 @@ class Teacher extends Person{
         return "Saya guru bernama : ".parent::getName();
     }
 }
+
+$student = new Student();
+$student->setName("Indra"); 
+echo $student->getName()."<br>";
+$student->setStudentID("230102083"); 
+echo $student->getStudentID(); 
 
 ?>
