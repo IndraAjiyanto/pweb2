@@ -94,7 +94,7 @@ dengan menggunakan kelas abstrak atau antarmuka.</p>
 
 # Modul 1 dan 2
 ## Jobsheet 1
-mahasiswa.php :
+### mahasiswa.php :
 ```php
 <?php
 
@@ -155,11 +155,11 @@ echo $mahasiswa->tampilkanData();
 ?>
 
 ```
-output : 
+### output : 
 ![image](https://github.com/user-attachments/assets/9128a40f-040c-4620-b2ec-416ec8b44f04)
 
 ## TUGAS 
-dosen.php :
+### dosen.php :
 ```php
 <?php
 
@@ -191,13 +191,13 @@ echo $dosen->tampilkanDosen();
 
 ?>
 ```
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/4b18d2f9-68d3-4892-9fe0-34bd5c456e43)
 
 # Modul 3 dan 4
 ## Jobsheet 2
-mahasiswa.php :
+### mahasiswa.php :
 ```php
 <?php
 
@@ -234,11 +234,11 @@ echo $mahasiswa->tampilkanData();
 ?>
 
 ```
-<p>output :</p>
+### output :
     
 ![image](https://github.com/user-attachments/assets/bdb2aeb0-2e34-4ddf-8b80-c4c3759cb014)
 
-encapsulation.php :
+### encapsulation.php :
 ```php
 <?php
 
@@ -313,11 +313,11 @@ echo "Jurusan : ".$mahasiswa->getJurusan()."<br>";
 ?>
 
 ```
-<p>output :</p>
+### output :
     
 ![image](https://github.com/user-attachments/assets/d069f001-e9f7-42e9-a9d2-caf0de232ef6)"
 
-inheritance.php :
+### inheritance.php :
 ```php
 <?php
 
@@ -369,11 +369,11 @@ echo $dosen->tampilDataDosen();
 
 ```
 
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/9449f039-38a4-4870-b75a-e82fc94dd661)
 
-polymorphism.php :
+### polymorphism.php :
 ```php
 <?php
 
@@ -459,11 +459,11 @@ echo $mahasiswa->aksesFitur();
 ?>
 
 ```
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/3c7c0a65-e628-4de8-ba03-71a7e1184699)
 
-abstraction.php :
+### abstraction.php :
 ```php
 <?php
 
@@ -542,14 +542,14 @@ echo $mahasiswa->aksesFitur();
 
 ```
 
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/cb3d4d29-0aa4-44bd-8bc2-db8e95374827)
 
 
 # Modul 5 dan 6
 ## Jobsheet 3
-inheritance.php :
+### inheritance.php :
 ```php
 <?php
 
@@ -600,11 +600,11 @@ echo $student->getStudentID();
 
 ?>
 ```
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/3d361d56-9bdb-42c7-8a57-20cc0f2de447)
 
-polymorphism.php :
+### polymorphism.php :
 ```php
 <?php
 
@@ -700,11 +700,11 @@ echo $teacher->getteacherID()."<br>";
 
 ```
 
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/359a42a4-4f94-4ff1-aa27-3c3835a54710)
 
-encapsulation.php :
+### encapsulation.php :
 ```php
 <?php
 
@@ -798,11 +798,11 @@ echo $student->getStudentID();
 
 ?>
 ```
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/802c6e7f-b2fa-4246-a6f8-cfd7053d76d0)
 
-abstraction.php :
+### abstraction.php :
 ```php
 <?php
 
@@ -852,12 +852,12 @@ echo $offlineCourse->getCourseDetails();
 
 ?>
 ```
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/db25f499-c273-4f56-8a94-39bbf872d8c0)
 
 ## TUGAS
-mahasiswa.php :
+### mahasiswa.php :
 ```php
 <?php
 
@@ -958,6 +958,6 @@ echo $mahasiswaJurnal->pengajuanJurnal();
 
 ```
 
-<p>output :</p>
+### output :
 
 ![image](https://github.com/user-attachments/assets/353bc8f3-ed73-440c-97d2-7200c9d7689f)
